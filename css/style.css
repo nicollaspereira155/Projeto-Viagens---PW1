@@ -1,0 +1,80 @@
+html{
+    
+} 
+body{
+    background-color: #5900ac;
+}
+#paises{
+    background: radial-gradient(circle, rgb(68, 68, 68), rgb(31, 31, 31));
+    width: 90%;
+    margin:auto;
+    margin-top: 40px;
+    box-shadow: 0 0 40px 10px;
+}
+#paises h3{
+    font-size: 70px;
+    color: #7800e9;
+    font-family: fantasy;
+    font-weight: 250;
+}
+#paises button{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #5900ac;
+    border: 0 solid;
+    box-shadow: 0 0 20px #5900ac;
+    transition: transform 0.3s ease-in-out;
+}
+#paises button a{
+    text-decoration: none;
+    color: white
+}
+#paises img{
+    box-shadow: 0 0 50px 0.5px rgb(10, 10, 10);
+}
+.tituloinicio{
+    padding-left: 20px;
+    padding-bottom: 7px;
+    padding-top: 2px;
+    
+}
+.tituloinicio h2{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.tituloinicio .titulo{
+    color: #7800e9;
+    font-weight: 50px;
+    font-size: 80px;
+    font-family: fantasy;
+}
+#paises p{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+hr{
+    background-color: #5900ac;
+    border: none;
+    height: 3px;
+    box-shadow: 0 0 20px #5900ac;
+    height: 9px;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+nav{
+    height: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer p{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
